@@ -27,7 +27,7 @@ window.onload = function() {
 function popUp() {
 
     
-    let promptValue = prompt();
+    let promptValue = prompt("Choose a number between 1 and 100");
     if(promptValue === null) return;
     let promptValueNumber = Number(promptValue);
     container.replaceChildren()
